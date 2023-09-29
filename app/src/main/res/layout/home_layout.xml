@@ -1,9 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#6237A8"
+    android:orientation="vertical"
     tools:context=".home_Activity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:text="Bem Vindo"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Percebemos, cada vez mais, que a crescente influência da mídia ainda não demonstrou convincentemente que vai participar na mudança do sistema de formação de quadros que corresponde às necessidades."
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/imgLogin"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:text="COMPANY NAME"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:paddingBottom="35dp"
+        android:text="SLOGAN HERE"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnSair"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_marginBottom="15dp"
+        android:text="Sign in"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/btnSair"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_marginBottom="30dp"
+        android:text="Sign up"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="15dp"
+        android:text="Siga nossas redes sociais"
+        android:textColor="@color/white" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        >
+
+
+    <ImageView
+        android:id="@+id/imgLogin"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/facebook" />
+
+    <ImageView
+        android:id="@+id/imgLogin"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/twitter" />
+
+    <ImageView
+        android:id="@+id/imgLogin"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+
+        android:src="@drawable/linkedin" />
+
+
+</LinearLayout>
+
+
+
+</LinearLayout>
